@@ -1,0 +1,12 @@
+name: MultiEconomy
+version: 1.0.0
+main: me.fliqq.multieconomy.MultiEconomy
+description: Multiple currency economy plugin
+author: Fliqq
+api-version: "1.21.1"
+softdepend: [Vault]
+commands:
+  balance:
+  addbalance:
+  pay:
+  withdraw:

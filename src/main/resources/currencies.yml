@@ -1,0 +1,27 @@
+currencies:
+  coins:
+    name: Coins
+    symbol: "$"
+    starting-balance: 100.0
+    is-default: true
+    transferable: true
+    withdrawable: true
+    withdraw:
+      item: GOLD_NUGGET
+      name: "&6Coin Note"
+      lore:
+        - "&7Amount: &e{amount}"
+        - "&7Currency: &eCoins"
+  gems:
+    name: Gems
+    symbol: "♦"
+    starting-balance: 0.0
+    is-default: false
+    transferable: true
+    withdrawable: true
+    withdraw:
+      item: EMERALD
+      name: "&aGem Certificate"
+      lore:
+        - "&7Value: &e{amount} Gems"
+        - "&7Redeemable at any bank"

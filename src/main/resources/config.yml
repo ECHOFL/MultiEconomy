@@ -1,0 +1,17 @@
+# Main configuration file for MultiCurrencyEconomy
+
+# General settings
+settings:
+  vault-integration: true
+  language: "en"
+  debug-mode: false
+
+# Storage settings
+storage:
+  type: YAML # Options: JSON, YAML, SQLite, MySQL
+  mysql:
+    host: localhost
+    port: 3306
+    database: your_database
+    username: your_username
+    password: your_password
